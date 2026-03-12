@@ -6,8 +6,8 @@ const nextConfig: NextConfig = {
   output: "export",
   distDir: "out",
   images: { unoptimized: true },
-  assetPrefix: isProd ? "/Jung0x12.github.io/" : "",
-  basePath: isProd ? "/Jung0x12.github.io" : "",
+  assetPrefix: isProd ? "/0x12jung.github.io/" : "",
+  basePath: isProd ? "/0x12jung.github.io" : "",
 };
 
 export default nextConfig;

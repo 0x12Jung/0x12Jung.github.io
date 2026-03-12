@@ -1,7 +1,7 @@
 const ContactContent = () => {
   const socialLinks = [
     { name: "Linkedin", url: "https://www.linkedin.com/in/jung0x12/" },
-    { name: "Github", url: "https://github.com/Jung0x12" },
+    { name: "Github", url: "https://github.com/0x12Jung" },
     { name: "X", url: "https://x.com/Tuanimoo" },
   ];
 
