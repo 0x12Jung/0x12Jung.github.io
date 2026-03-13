@@ -6,10 +6,10 @@ const BlogContent = async () => {
   const blogs = [
     {
       title:
-        "Liquid Network: Innovation in Privacy and Asset Tokenization Built on Bitcoin",
+        "Evolution of RWA Compliance Standards: From ERC-3643 to the Lighter ERC-7943 Universal Interface",
       subtitle:
-        "Explore how Liquid Network combines Bitcoin's core features with innovative technology to provide efficient on-chain asset issuance and privacy-focused transaction solutions.",
-      url: "https://medium.com/bsos-taiwan/liquid-network-94bfdbec799f",
+        "Explore how ERC-7943 simplifies and generalizes on-chain compliance for tokenized RWA compared with the heavier, identity-driven ERC-3643 standard.",
+      url: "https://medium.com/bsos-taiwan/erc-3643-to-erc-7943-97a41bb9f779",
       img: "/blog2.webp",
     },
     {

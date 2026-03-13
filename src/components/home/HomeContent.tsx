@@ -16,11 +16,10 @@ const HomeContent = () => {
                 {"Jung Tu"}
               </div>
               <div className="text-lg 2xl:text-2xl mt-4 2xl:mt-6 font-varela text-brown-dark">
-                {"Software Developer / Blockchain & Mobile"}
+                {"Software Engineer in Blockchain & Mobile"}
               </div>
               <div className="text-lg 2xl:text-2xl mt-1 2xl:mt-2 font-varela text-brown-dark">
-                {"Working full-time as a Blockchain developer at"}
-                <br /> {"Isle Finance"}
+                {"Building secure smart contracts and maintainable production applications"}
               </div>
             </div>
           </div>

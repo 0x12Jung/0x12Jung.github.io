@@ -23,72 +23,26 @@ const AboutContent = async () => {
             {/* Intro */}
             <div className="text-lg leading-normal mt-6 space-y-6 font-varela text-brown-dark">
               <div>
-                {"I have nearly 6 years of experience as a software developer, in " +
-                  "the early stages of my career I focus on Mobile development. " +
-                  "This has allowed me to build a solid foundation in mobile " +
-                  "application design and implementation."}
+                {"I started my career in mobile development, " +
+                  "building Android applications with a strong focus on architecture, " +
+                  "implementation, and long-term maintainability."}
               </div>
               <div>
-                {"Outside of work, my passion for technology drives me to explore " +
-                  "the latest innovations. These years, I have expanded my " +
-                  "interests into the blockchain domain, focusing on decentralized " +
-                  "systems and Web3 applications, inspired by their transformative " +
-                  "potential."}
-              </div>
-              <div>
-                {"Currently, I am fortunate to be a part of the blockchain " +
-                  "industry, focusing on developing innovative applications. I look " +
-                  "forward to the continuous evolution of blockchain and its " +
-                  "transformative global impact."}
+                {"Over time, my work expanded into blockchain engineering. " +
+                  "I now focus primarily on EVM smart contracts and blockchain applications, " +
+                  "with an emphasis on security, " +
+                  "reliability, and practical system design."}
               </div>
             </div>
 
             {/* Expierence */}
             <div className="mt-12">
-              <div className="text-5xl font-bebasNeue">Expierence</div>
-              <div className="text-lg mt-4 ml-2 space-y-1 font-varela text-brown-dark">
-                <div>- 1 year of blockchain developer</div>
-                <div>- 5 years of mobile developer</div>
-                <div>- Bachelor of Computer Science</div>
-              </div>
-            </div>
-
-            {/* Skills */}
-            <div className="mt-12">
-              <div className="text-5xl font-bebasNeue">Skills</div>
-              <div className="mt-3 space-y-6">
-                <div>
-                  <div className="text-3xl font-bebasNeue">Blockchain</div>
-                  <div className="text-lg leading-relaxed mt-1 ml-1 font-varela text-brown-dark">
-                    Solidity / Foundry
-                    <br />
-                    Openzeppelin / Chainlink VRF
-                    <br />
-                    The Graph / Goldsky / SQD(Subsquid)
-                    <br />
-                    Slither / Tenderly
-                  </div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bebasNeue">Mobile</div>
-                  <div className="text-lg leading-relaxed mt-1 ml-1 font-varela text-brown-dark">
-                    Kotlin / Java
-                    <br />
-                    MVVM / MVI / Clean Architecture
-                    <br />
-                    RESTful API / gRPC / WebSocket
-                    <br />
-                    Mockk / Junit5 / Robolectric / Kaspresso / Github Action(CI)
-                    <br />
-                    Jetpack / KMM(Kotlin Multiplatform Mobile) / Firebase Tools
-                  </div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bebasNeue">Others</div>
-                  <div className="text-lg leading-relaxed mt-1 ml-1 font-varela text-brown-dark">
-                    Next.js / React / TypeScript / Tailwind CSS
-                  </div>
-                </div>
+              <div className="text-5xl font-bebasNeue">Experience</div>
+              <div className="text-lg mt-4 ml-2 space-y-4 font-varela text-brown-dark">
+                <div>- {"Designed and implemented smart contracts for DeFi and supply chain finance RWA protocols, with comprehensive test coverage and audit-ready development practices."}</div>
+                <div>- {"Completed blockchain security training through DeFiHackLabs, strengthening my understanding of common vulnerabilities, security-focused smart contract design and development workflows."}</div>
+                <div>- {"Developed maintainable mobile applications with improved architecture, stronger test coverage, and automated testing workflows."}</div>
+                <div>- {"Optimized test pipelines through sharding, reducing execution time and improving development efficiency."}</div>
               </div>
             </div>
 

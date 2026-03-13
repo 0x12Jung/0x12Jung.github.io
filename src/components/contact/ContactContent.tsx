@@ -1,6 +1,6 @@
 const ContactContent = () => {
   const socialLinks = [
-    { name: "Linkedin", url: "https://www.linkedin.com/in/jung0x12/" },
+    { name: "Linkedin", url: "https://www.linkedin.com/in/0x12jung/" },
     { name: "Github", url: "https://github.com/0x12Jung" },
     { name: "X", url: "https://x.com/Tuanimoo" },
   ];
@@ -28,7 +28,7 @@ const ContactContent = () => {
             </div>
             <div className="text-lg mt-5 ms-2 font-varela text-brown-dark">
               <div>
-                {"Email: jwork1994212@gmail.com"}
+                {"Email: 0x12jung@gmail.com"}
                 <br />
                 {"ENS: Jung0x12.eth"}
               </div>
