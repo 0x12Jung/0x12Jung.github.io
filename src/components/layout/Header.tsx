@@ -13,7 +13,7 @@ function Header() {
     <header>
       <nav>
         {navItems.map((item) => (
-          <Link key={item.lable} to={item.path}>
+          <Link className="px-4" key={item.lable} to={item.path}>
             {item.lable}
           </Link>
         ))}
