@@ -1,0 +1,11 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+
+# TanStack Router generated route tree
+src/routeTree.gen.ts
+
+# bun
+bun.lockb
