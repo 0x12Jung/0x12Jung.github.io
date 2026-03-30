@@ -1,1 +1,29 @@
 @import "tailwindcss";
+@import "@fontsource/bebas-neue";
+@import "@fontsource/varela";
+
+@theme {
+  --font-bebas: "Bebas Neue";
+  --font-varela: "Varela";
+
+  --color-beige: #e6d9cd;
+  --color-beige-light: #f4ebe6;
+
+  --color-brown: #795548;
+  --color-brown-dark: #493628;
+  --color-brown-400: #8d6e63;
+  --color-brown-700: #5d4037;
+}
+
+@layer base {
+  body {
+    @apply bg-beige;
+  }
+}
+
+@layer utilities {
+  .hover-slide-left {
+    @apply transform transition-transform duration-500 hover:-translate-x-8;
+  }
+
+}
