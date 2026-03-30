@@ -4,7 +4,7 @@ import { navMenuItems } from "@/constants";
 
 function Home() {
   return (
-    <div className="h-screen flex">
+    <div className="w-full flex">
       <div className="w-2/5 flex flex-col justify-end">
         <div className="h-2/5 flex justify-end">
           <div className="w-[400px] 2xl:w-[600px]">

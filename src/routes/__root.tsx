@@ -10,9 +10,9 @@ function RootLayout() {
   const isHome = location.pathname === "/";
 
   return (
-    <div>
+    <div className="flex flex-col min-h-screen">
       {!isHome && <Header />}
-      <main>
+      <main className="flex-1 flex">
         <Outlet />
       </main>
     </div>
