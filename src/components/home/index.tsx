@@ -1,5 +1,6 @@
-import { navMenuItems } from "@/constants";
 import { Link } from "@tanstack/react-router";
+
+import { navMenuItems } from "@/constants";
 
 function Home() {
   return (
