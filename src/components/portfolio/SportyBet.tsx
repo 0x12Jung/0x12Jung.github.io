@@ -24,7 +24,7 @@ function SportyBet() {
 
       <div className="flex flex-col w-[36vw] 2xl:w-[32vw]">
         <LinkWithIcon
-          href="https://play.google.com/store/apps/details?id=com.sportybet.android.gp&hl=en_US"
+          href="https://play.google.com/store/apps/details?id=com.sportybet.android.gp&gl=ng&hl=en_NG"
           title="SportyBet"
         />
         <div className="text-xl mt-6 2xl:text-2xl font-varela text-brown-dark">
