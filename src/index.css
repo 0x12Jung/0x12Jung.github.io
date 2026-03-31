@@ -21,8 +21,66 @@
   }
 }
 
+@keyframes fade-slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes draw-line {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
 @layer utilities {
   .hover-slide-left {
     @apply transform transition-transform duration-500 hover:-translate-x-8;
+  }
+
+  .animate-on-scroll {
+    animation: fade-slide-up 0.8s ease both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 35%;
+  }
+
+  @supports not (animation-timeline: view()) {
+    .animate-on-scroll {
+      animation: none;
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  .img-hover-lift {
+    transition:
+      transform 500ms ease,
+      box-shadow 500ms ease;
+  }
+  .img-hover-lift:hover {
+    transform: scale(1.03);
+    box-shadow: 0 20px 40px -12px rgba(73, 54, 40, 0.25);
+  }
+
+  .divider-draw {
+    transform-origin: left;
+    animation: draw-line 1s ease both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 50%;
+  }
+
+  @supports not (animation-timeline: view()) {
+    .divider-draw {
+      animation: none;
+      transform: scaleX(1);
+    }
   }
 }
