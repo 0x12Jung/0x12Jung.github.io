@@ -13,7 +13,7 @@ function Home() {
               Software Engineer in Blockchain & Mobile
             </div>
             <div className="text-lg 2xl:text-2xl mt-1 2xl:mt-2 font-varela text-brown-dark">
-              Building secure smart contracts and maintainable production
+              Building on-chain financial protocols and high-traffic mobile
               applications
             </div>
           </div>

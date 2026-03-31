@@ -11,21 +11,22 @@ function About() {
               <div className="text-9xl font-bold">Hello</div>
               <div className="text-5xl leading-snug mt-10">
                 I'm Jung
-                <br />A software developer
+                <br />A software engineer
               </div>
             </div>
 
             <div className="mt-6 space-y-6 font-varela text-brown-dark text-lg leading-normal">
               <p>
-                I started my career in mobile development, building Android
-                applications with a strong focus on architecture,
-                implementation, and long-term maintainability.
+                Over the past two years, I've been focused on building on-chain
+                financial infrastructure, from lending protocols and yield
+                vaults to tokenization systems that connect traditional finance
+                with blockchain.
               </p>
               <p>
-                Over time, my work expanded into blockchain engineering. I now
-                focus primarily on EVM smart contracts and blockchain
-                applications, with an emphasis on security, reliability, and
-                practical system design.
+                With five years of experience building Android applications for
+                e-commerce and sports gaming platforms, I bring a strong foundation in
+                writing reliable, production-grade software to everything I
+                build.
               </p>
             </div>
 
@@ -33,24 +34,23 @@ function About() {
               <div className="text-5xl font-bebas">Experience</div>
               <ul className="mt-4 ml-2 space-y-4 font-varela text-brown-dark text-lg list-disc list-inside">
                 <li>
-                  Designed and implemented smart contracts for DeFi and supply
-                  chain finance RWA protocols, with comprehensive test coverage
-                  and audit-ready development practices.
+                  Built a supply chain lending protocol on EVM, connecting
+                  liquidity providers with on-chain trade receivables through
+                  trustless loan contracts
                 </li>
                 <li>
-                  Completed blockchain security training through DeFiHackLabs,
-                  strengthening my understanding of common vulnerabilities,
-                  security-focused smart contract design and development
-                  workflows.
+                  Designed yield vaults for stablecoins with a modular
+                  strategy system, allowing new yield sources to be added
+                  without changing core logic
                 </li>
                 <li>
-                  Developed maintainable mobile applications with improved
-                  architecture, stronger test coverage, and automated testing
-                  workflows.
+                  Developed tokenization infrastructure for real-world assets,
+                  covering the full lifecycle from issuance to redemption across
+                  multiple blockchain environments
                 </li>
                 <li>
-                  Optimized test pipelines through sharding, reducing execution
-                  time and improving development efficiency.
+                  Shipped and maintained high-traffic Android applications,
+                  including e-commerce platforms and a sports gaming app
                 </li>
               </ul>
             </div>
