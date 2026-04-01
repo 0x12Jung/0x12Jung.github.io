@@ -1,3 +1,4 @@
+import BlurImage from "../common/BlurImage";
 import LinkWithIcon from "../common/LinkWithIcon";
 import { type PortfolioProject } from "@/data/portfolio";
 
@@ -17,10 +18,12 @@ function Lativ({ project }: { project: PortfolioProject }) {
             key={img}
             className={`w-[16vw] 2xl:w-[14vw] ${index === 1 ? "-translate-y-4" : ""}`}
           >
-            <img
+            <BlurImage
               src={img}
               alt={`${project.title} screenshot ${index + 1}`}
               className="rounded-xl shadow-lg img-hover-lift ring-1 ring-brown/10"
+              containerClassName="rounded-xl"
+              loading="lazy"
             />
           </div>
         ))}

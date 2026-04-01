@@ -1,3 +1,5 @@
+import BlurImage from "../common/BlurImage";
+
 const BlogLink = ({
   title,
   subtitle,
@@ -26,13 +28,13 @@ const BlogLink = ({
         Read on Medium →
       </span>
     </div>
-    <div className="w-1/3 shrink-0 overflow-hidden rounded-md">
-      <img
-        src={img}
-        alt={title}
-        className="w-full h-auto transition-transform duration-500 group-hover:scale-105"
-      />
-    </div>
+    <BlurImage
+      src={img}
+      alt={title}
+      className="w-full h-auto transition-transform duration-500 group-hover:scale-105"
+      containerClassName="w-1/3 shrink-0 rounded-md"
+      loading="lazy"
+    />
   </a>
 );
 

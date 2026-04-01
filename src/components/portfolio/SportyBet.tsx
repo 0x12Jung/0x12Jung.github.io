@@ -1,3 +1,4 @@
+import BlurImage from "../common/BlurImage";
 import LinkWithIcon from "../common/LinkWithIcon";
 import { type PortfolioProject } from "@/data/portfolio";
 
@@ -8,10 +9,12 @@ function SportyBet({ project }: { project: PortfolioProject }) {
         <div className="flex gap-3">
           {project.images.map((img, index) => (
             <div key={img} className="w-[15vw] 2xl:w-[13vw]">
-              <img
+              <BlurImage
                 src={img}
                 alt={`${project.title} screenshot ${index + 1}`}
                 className="rounded-xl shadow-lg img-hover-lift ring-1 ring-brown/10"
+                containerClassName="rounded-xl"
+                loading="lazy"
               />
             </div>
           ))}

@@ -70,6 +70,22 @@
     box-shadow: 0 20px 40px -12px rgba(73, 54, 40, 0.25);
   }
 
+  .img-blur-loading {
+    filter: blur(20px);
+    opacity: 0.6;
+    transform: scale(1.1);
+    transition:
+      filter 0.6s ease,
+      opacity 0.6s ease,
+      transform 0.6s ease;
+  }
+
+  .img-blur-loaded {
+    filter: blur(0);
+    opacity: 1;
+    transform: scale(1);
+  }
+
   .divider-draw {
     transform-origin: left;
     animation: draw-line 1s ease both;

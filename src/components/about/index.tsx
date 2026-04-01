@@ -1,4 +1,5 @@
 import { Link } from "@tanstack/react-router";
+import BlurImage from "../common/BlurImage";
 import { aboutData } from "@/data/about";
 
 function About() {
@@ -41,14 +42,13 @@ function About() {
         </div>
       </div>
 
-      <div className="w-[700px] h-[800px] overflow-hidden relative ms-16 mt-12 shrink-0 rounded-l-md 2xl:rounded-md">
-        <img
-          src={aboutData.portrait}
-          alt="Profile"
-          className="w-full h-full object-cover"
-          fetchPriority="high"
-        />
-      </div>
+      <BlurImage
+        src={aboutData.portrait}
+        alt="Profile"
+        className="w-full h-full object-cover"
+        containerClassName="w-[700px] h-[800px] relative ms-16 mt-12 shrink-0 rounded-l-md 2xl:rounded-md"
+        fetchPriority="high"
+      />
     </div>
   );
 }
