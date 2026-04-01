@@ -24,6 +24,9 @@ jobs:
 
       - run: bun install --frozen-lockfile
 
+      - name: Generate route tree
+        run: bunx @tanstack/router-cli generate
+
       - run: bun run build
 
       - uses: actions/configure-pages@v5
