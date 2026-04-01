@@ -65,7 +65,7 @@ function About() {
         </div>
       </div>
 
-      <div className="w-[700px] h-[800px] overflow-hidden relative ms-16 mt-12 shrink-0">
+      <div className="w-[700px] h-[800px] overflow-hidden relative ms-16 mt-12 shrink-0 rounded-l-md 2xl:rounded-md">
         <img
           src={portrait}
           alt="Profile"
