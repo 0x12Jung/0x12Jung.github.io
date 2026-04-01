@@ -3,8 +3,8 @@ import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 import { tanstackRouter } from "@tanstack/router-plugin/vite";
 
-export default defineConfig({
-  base: '/0x12Jung.github.io/',
+export default defineConfig(({ mode }) => ({
+  base: mode === 'production' ? '/0x12Jung.github.io/' : '/',
   plugins: [
     tanstackRouter({ target: "react", autoCodeSplitting: true }),
     react(),
@@ -15,4 +15,4 @@ export default defineConfig({
       "@": "/src",
     },
   },
-});
+}));
