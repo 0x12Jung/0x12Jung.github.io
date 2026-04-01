@@ -10,7 +10,7 @@ function SportyBet({ project }: { project: PortfolioProject }) {
             <div key={img} className="w-[15vw] 2xl:w-[13vw]">
               <img
                 src={img}
-                alt={`${project.title} APP ${index}`}
+                alt={`${project.title} screenshot ${index + 1}`}
                 className="rounded-xl shadow-lg img-hover-lift ring-1 ring-brown/10"
               />
             </div>

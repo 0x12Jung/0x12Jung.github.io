@@ -19,7 +19,7 @@ function Lativ({ project }: { project: PortfolioProject }) {
           >
             <img
               src={img}
-              alt={`${project.title} Shopping APP ${index}`}
+              alt={`${project.title} screenshot ${index + 1}`}
               className="rounded-xl shadow-lg img-hover-lift ring-1 ring-brown/10"
             />
           </div>
