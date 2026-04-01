@@ -1,11 +1,7 @@
 import Isle from "./Isle";
 import Lativ from "./Lativ";
 import SportyBet from "./SportyBet";
-import {
-  isleProject,
-  sportyBetProject,
-  lativProject,
-} from "@/data/portfolio";
+import { isleProject, sportyBetProject, lativProject } from "@/data/portfolio";
 
 function Divider() {
   return <div className="divider-draw h-px bg-brown/20 w-[60vw] mx-auto" />;

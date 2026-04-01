@@ -16,10 +16,10 @@ const BlogLink = ({
     className="group flex items-start gap-8 2xl:gap-12 py-10 2xl:py-14 border-b border-brown-400/30 last:border-b-0 transition-colors duration-300"
   >
     <div className="flex-1 flex flex-col gap-3 2xl:gap-4">
-            <h2 className="text-2xl 2xl:text-3xl font-bebas leading-tight tracking-wide text-brown-dark group-hover:text-brown transition-colors duration-300">
+      <h2 className="text-2xl 2xl:text-3xl font-bebas leading-tight tracking-wide text-brown-dark group-hover:text-brown transition-colors duration-300">
         {title}
       </h2>
-            <p className="text-base 2xl:text-lg font-varela text-brown leading-relaxed line-clamp-3">
+      <p className="text-base 2xl:text-lg font-varela text-brown leading-relaxed line-clamp-3">
         {subtitle}
       </p>
       <span className="text-sm font-varela text-brown-400 mt-2 uppercase">
