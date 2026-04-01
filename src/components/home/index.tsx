@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 
 import { navMenuItems } from "@/constants";
+import { homeData } from "@/data/home";
 
 function Home() {
   return (
@@ -8,13 +9,12 @@ function Home() {
       <div className="w-2/5 flex flex-col justify-end">
         <div className="h-2/5 flex justify-end">
           <div className="w-[400px] 2xl:w-[600px]">
-            <div className="text-4xl 2xl:text-5xl font-bebas">Jung Tu</div>
+            <div className="text-4xl 2xl:text-5xl font-bebas">{homeData.name}</div>
             <div className="text-lg 2xl:text-2xl mt-4 2xl:mt-6 font-varela text-brown-dark">
-              Software Engineer in Blockchain & Mobile
+              {homeData.tagline}
             </div>
             <div className="text-lg 2xl:text-2xl mt-1 2xl:mt-2 font-varela text-brown-dark">
-              Building on-chain financial protocols and high-traffic mobile
-              applications
+              {homeData.subtitle}
             </div>
           </div>
         </div>
